@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { DummyInterface } from '../../../../libs/interfaces/src/lib/interfaces';
+import { DummyInterface } from '../../../../libs/interfaces/src/lib/dummy.interface';
 
 
 import { AppService } from './app.service';

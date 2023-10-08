@@ -1,6 +1,6 @@
 import { proxyActivities } from '@temporalio/workflow';
 import { ActivitiesService } from './activities.service';
-import { DummyInterface } from '../../../../libs/interfaces/src/lib/interfaces';
+import { DummyInterface } from '../../../../libs/interfaces/src/lib/dummy.interface';
 
 const { testActivity } = proxyActivities<
   typeof ActivitiesService.prototype

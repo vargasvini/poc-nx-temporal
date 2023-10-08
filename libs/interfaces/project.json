@@ -1,0 +1,43 @@
+{
+  "name": "interfaces",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "root": "libs/interfaces",
+  "sourceRoot": "libs/interfaces/src",
+  "projectType": "library",
+  "schematics": {},
+  "targets": {
+    "lint": {
+      "builder": "@nrwl/linter:lint",
+      "options": {
+        "linter": "eslint",
+        "tsConfig": [],
+        "exclude": []
+      }
+    },
+    "test": {
+      "builder": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/interfaces/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/libs/interfaces",
+        "tsConfig": "libs/interfaces/tsconfig.lib.json",
+        "main": "libs/interfaces/src/index.ts",
+        "assets": ["libs/interfaces/src/assets"],
+        "isolatedConfig": true,
+        "webpackConfig": "libs/interfaces/webpack.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { DummyInterface } from '../../../../libs/interfaces/src/lib/interfaces';
+import { DummyInterface } from '../../../../libs/interfaces/src/lib/dummy.interface';
 
 @Injectable()
 export class AppService {
