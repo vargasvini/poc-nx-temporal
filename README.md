@@ -1,4 +1,4 @@
-# poc-nx-temporal
+# NX + Temporal
 
 1. Docker compose Temporal
 2. RUN {{application-1}}
