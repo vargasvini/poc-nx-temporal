@@ -8,6 +8,8 @@
 
 ![image](https://github.com/vargasvini/poc-nx-temporal/assets/44420618/fc9f13b0-360d-4828-a515-874a27a5b3f3)
 
+![image](https://github.com/vargasvini/poc-nx-temporal/assets/44420618/232bd793-cb3f-4e42-95ae-4baa1bb04984)
+
 
 ## Temporal UI at http://localhost:8080/
 
