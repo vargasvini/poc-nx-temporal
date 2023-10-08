@@ -6,9 +6,10 @@
 4. [GET] http://localhost:3001/
 
 
-![image](https://github.com/vargasvini/poc-nx-temporal/assets/44420618/fc9f13b0-360d-4828-a515-874a27a5b3f3)
+![image](https://github.com/vargasvini/poc-nx-temporal/assets/44420618/247fe5e9-a223-4b7b-9ee7-02412e1b9e73)
 
-![image](https://github.com/vargasvini/poc-nx-temporal/assets/44420618/232bd793-cb3f-4e42-95ae-4baa1bb04984)
+
+![image](https://github.com/vargasvini/poc-nx-temporal/assets/44420618/f9cd7ed6-237a-4de5-beeb-30ca9d3e2de3)
 
 
 ## Temporal UI at http://localhost:8080/
